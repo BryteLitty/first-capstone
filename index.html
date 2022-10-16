@@ -23,50 +23,64 @@
             </ul>
         </div>
 
-        <nav>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid nav-container">
-                    <a class="navbar-brand" href="#">Hooge Conference</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Program</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Join</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link">Sponsor</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link">News</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link campaign">CC Campaign</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+        <nav class="nav-flex">
+            <div class="logo">
+                <a href="index.html">Hooge Conference</a>
+            </div>
+
+            <div class="nav-content">
+                <span class="nav-icon">
+                    <i class="fa-sharp fa-solid fa-bars"></i>
+                </span>
+
+                <ul class="nav-links">
+                    <li><a href="#works" class="nav-item active">About</a></li>
+                    <li><a href="#about" class="nav-item">Program</a></li>
+                    <li><a href="#about" class="nav-item">Join</a></li>
+                    <li><a href="#about" class="nav-item">Sponsor</a></li>
+                    <li><a href="#contacts" class="nav-item campaign">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
+    <!-- mobile menue -->
+    <!-- popup mobile menu -->
+    <div class="mobile-menu">
+        <span class="close-btn">
+            <i class="fa-sharp fa-solid fa-xmark closeNtn"></i>
+        </span>
+    
+        <ul class="nav-links">
+                <li><a href="#" class="nav-item active">About</a></li>
+                <li><a href="#" class="nav-item">Program</a></li>
+                <li><a href="#" class="nav-item">Join</a></li>
+                <li><a href="#" class="nav-item">Sponsor</a></li>
+                <li><a href="#" class="nav-item">Campaign</a></li>
+        </ul>
+    </div>
+
     <main>
         <section id="hero-section">
-            <div class="container">
-                <h1>
+            <div class="text-wrap">
+                <h2>
                     "Hello! Sharing world" <br> <span class="adjust-text">CREATIVE COMMONS GLOBAL SUMMIT 2022</span>
-                </h1>
+                </h2>
+                <p class="paragraph">
+                    A joyful celebration believing in the value of openeess and sharing, creating a positive change with people from
+                    over 80 countries is taking place in October, in Korea.
+                </p>
+
+                <div class="date">
+                    <h2 class="bold">2015.10.15(THU) ~ 16(FRI)</h2>
+                    <p>@National Park of Ghana, Art Central</p>
+                </div>
             </div>
         </section>
     </main>
 
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
