@@ -1,0 +1,81 @@
+/* import forms */
+/* Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* variables */
+:root {
+    --dark: #272a31;
+    --orange: #ec5242;
+    --gray: #d3d3d3;
+    --primary: #fff;
+    --black: #000;
+    --lato-font: 'Lato', sans-serif;
+}
+
+body {
+    font-family: var(--lato-font);
+}
+
+nav {
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+.top-nav {
+    color: var(--gray);
+    background: var(--dark);
+    display: none;
+}
+
+.top-links {
+    margin: 0 14%;
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+
+.top-links li {
+    margin: 0 6px;
+    font-weight: 400;
+}
+
+.fa-brands {
+    color: var(--gray);
+}
+
+.nav-container {
+    margin: 10px 12%;
+}
+
+.campaign {
+    color: var(--orange);
+    border: 4px solid var(--orange);
+}
+
+.nav-item {
+    padding: 0 28px;
+    color: var(--gray);
+    font-weight: 600;
+}
+
+.active {
+    color: var(--orange)!important;
+}
+
+#hero-section .container{
+    margin: 10% 12%;
+}
+
+h1 {
+    color: var(--orange);
+}
+
+.adjust-text {
+    font-size: 2.3em;
+    font-weight: 900;
+    color: #e13623;
+}
+
+.nav-toggler-icon {
+    display: flex;
+}
+
