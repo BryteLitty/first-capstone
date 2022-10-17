@@ -15,6 +15,7 @@
 body {
     font-family: var(--lato-font);
     /* background: var(--gray); */
+    color: white;
 }
 
 
@@ -57,8 +58,8 @@ body {
 
 .fa-bars {
     font-size: 2em;
-    margin: 15px 20px 0;
-    font-weight: 900;
+    margin: 15px 30px 0;
+    color: #000;
 }
 
 .fa-xmark {
@@ -116,7 +117,7 @@ body {
     color: var(--black);
     padding: 5px 10px;
     background-color: #f3eeee;
-    margin: 5px 0;
+    margin: 15px 0;
     line-height: 1.8;
 }
 .date {
@@ -126,6 +127,45 @@ body {
 .bold {
     font-weight: 900;
 }
+
+#main-program {
+    padding: 25px 8px;
+    background-color: rgb(32, 32, 32);
+}
+
+.line {
+    border: 2px solid #e02712;
+    width: 10%;
+    background: var(--orange);
+}
+
+.heading {
+    color: var(--primary);
+    margin: 20px;
+}
+
+.program-item {
+    background-color: var(--dark);
+    width: 92%;
+    align-items: center;
+}
+
+.icon {
+    font-size: 2em;
+}
+
+.sub-heading {
+    color: var(--orange);
+    font-weight: 600;
+    padding: 0 12px ;
+    font-size: 1.5em;
+}
+
+.para {
+    padding: 10px 10px 0;
+}
+
+
 
 
 
