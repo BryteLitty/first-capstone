@@ -37,6 +37,7 @@ body {
     font-weight: 400;
 }
 
+
 .logo {
     display: none;
 }
@@ -72,7 +73,7 @@ body {
   background-color: var(--primary);
   position: fixed;
   height: auto;
-  width: 100%;
+  width: 70%;
   top: 0;
   padding: 28px;
   transition: all 0.2s linear;
@@ -101,9 +102,15 @@ body {
     display: block;
 }
 
+#hero-section {
+    background: url(../assets/images/bg-img.png) no-repeat -10% 5%;
+}
+
+
 .text-wrap {
     padding: 50px 30px;
     color: var(--orange);
+    background-color: rgb(242, 240, 240);
 }
 
 .adjust-text {
@@ -116,7 +123,7 @@ body {
     border: 1px solid var(--primary);
     color: var(--black);
     padding: 5px 10px;
-    background-color: #f3eeee;
+    background-color: (--dark);
     margin: 15px 0;
     line-height: 1.8;
 }
@@ -186,7 +193,64 @@ body {
     font-weight: 500;
 }
 
+#featured-speakers {
+    margin-top: 18%;
+    color: #000 !important
+}
 
+.img-card {
+    margin: 5% 2%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.img-container {
+    width: 100%;
+    height: 90%;
+}
+
+.img-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    padding-left: 10px;
+}
+
+.name{
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.title {
+    color: var(--orange);
+    font-size: 0.9em;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.short-line {
+    border: 1px solid gray;
+    width: 10%;
+    margin: 0 0 5px;
+}
+
+.bio {
+    font-size: 0.9em;
+}
+
+.more-btn-box {
+    text-align: center;
+}
+.btn-more {
+    width: 90%;
+    background-color: var(--primary);
+    border: 1px solid var(--gray);
+    color: (--dark);
+    padding: 3%;
+    letter-spacing: 15;
+}
 
 
 
