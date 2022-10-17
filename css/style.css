@@ -150,11 +150,11 @@ body {
     display: inline-grid;
     grid-template-columns: 8% 22% 68%;
     column-gap: 15px;
-    max-width: 92%;
+    /* max-width: 92%; */
     padding: 8px;
     /* justify-content: center; */
     align-items: center;
-    margin: 10px auto;
+    margin: 8px 12px 8px 12px;
 }
 
 .icon {
@@ -168,7 +168,7 @@ body {
     font-size: 1.5em;
 }
 .para {
-    padding: 0 8px;
+    padding: 0 10px;
 }
 
 
