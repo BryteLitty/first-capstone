@@ -129,7 +129,7 @@ body {
 }
 
 #main-program {
-    padding: 25px 8px;
+    padding: 25px 0px;
     background-color: rgb(32, 32, 32);
 }
 
@@ -142,12 +142,19 @@ body {
 .heading {
     color: var(--primary);
     margin: 20px;
+
 }
 
 .program-item {
     background-color: var(--dark);
-    width: 92%;
+    display: inline-grid;
+    grid-template-columns: 8% 22% 68%;
+    column-gap: 15px;
+    max-width: 92%;
+    padding: 8px;
+    /* justify-content: center; */
     align-items: center;
+    margin: 10px auto;
 }
 
 .icon {
@@ -157,13 +164,13 @@ body {
 .sub-heading {
     color: var(--orange);
     font-weight: 600;
-    padding: 0 12px ;
+    margin-left: 6px;
     font-size: 1.5em;
 }
-
 .para {
-    padding: 10px 10px 0;
+    padding: 0 8px;
 }
+
 
 
 
