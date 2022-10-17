@@ -148,7 +148,7 @@ body {
 .program-item {
     background-color: var(--dark);
     display: inline-grid;
-    grid-template-columns: 8% 22% 68%;
+    grid-template-columns: 10% 30% 50%;
     column-gap: 15px;
     /* max-width: 92%; */
     padding: 8px;
@@ -169,6 +169,21 @@ body {
 }
 .para {
     padding: 0 10px;
+}
+
+.btn-box {
+  text-align: center;
+  margin: 35px 0;
+}
+
+.btn-orange {
+    /* width: 80%; */
+    padding: 30px;
+    background-color: var(--orange);
+    border: none;
+    font-size: 20px;
+    color: var(--primary);
+    font-weight: 500;
 }
 
 
