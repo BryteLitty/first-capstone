@@ -283,7 +283,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 12% 10%;
+    padding:  10%;
     align-items: center;
 }
 
@@ -301,6 +301,9 @@ body {
     line-height: 0.9;
 }
 
+.small {
+    font-size: .7em;
+}
 
 
 /* for desktop */
