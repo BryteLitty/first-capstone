@@ -12,6 +12,10 @@
     --lato-font: 'Lato', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--lato-font);
     /* background: var(--gray); */
@@ -255,7 +259,7 @@ body {
 }
 
 #partners-section {
-    padding: 8% 0;
+    padding: 10% 0;
     background-color: var(--dark)!important;
 }
 
@@ -273,6 +277,29 @@ body {
     margin: 5px;
 }
 
+.copy {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12% 10%;
+    align-items: center;
+}
+
+.copy .logo {
+    display: block;
+}
+
+.copy a {
+    margin: 0 6px;
+    font-weight: 400;
+    text-decoration: none;
+    font-weight: 900;
+    color: #000;
+    font-size: 1.2em;
+    line-height: 0.9;
+}
 
 
 
