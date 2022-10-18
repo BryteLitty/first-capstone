@@ -148,7 +148,7 @@ body {
 
 .heading {
     color: var(--primary);
-    margin: 20px;
+    margin: 15px;
 
 }
 
@@ -172,10 +172,11 @@ body {
     color: var(--orange);
     font-weight: 600;
     margin-left: 6px;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .para {
     padding: 0 10px;
+    font-size: 0.9em;
 }
 
 .btn-box {
@@ -243,6 +244,7 @@ body {
 .more-btn-box {
     text-align: center;
 }
+
 .btn-more {
     width: 90%;
     background-color: var(--primary);
@@ -252,6 +254,24 @@ body {
     letter-spacing: 15;
 }
 
+#partners-section {
+    padding: 8% 0;
+    background-color: var(--dark)!important;
+}
+
+#partners-section .container {
+    margin-top: 8%;
+    display: flex;
+    /* grid-template-columns: auto auto auto; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+#partners-section .container > div {
+    margin: 5px;
+}
 
 
 
