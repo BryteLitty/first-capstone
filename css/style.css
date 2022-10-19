@@ -107,14 +107,15 @@ body {
 }
 
 #hero-section {
-    background: url(../assets/images/bg-img.png) no-repeat -10% 5%;
+    background: url(../assets/images/bg-img.png) no-repeat;
+    
 }
 
 
 .text-wrap {
     padding: 50px 30px;
     color: var(--orange);
-    background-color: rgb(242, 240, 240);
+    background-color: rgba(248, 235, 232, 0.1);
 }
 
 .adjust-text {
@@ -124,10 +125,10 @@ body {
 }
 
 .paragraph {
-    border: 1px solid var(--primary);
+    border: 1px solid var(--gray);
     color: var(--black);
     padding: 5px 10px;
-    background-color: (--dark);
+    background-color: var(--primary);
     margin: 15px 0;
     line-height: 1.8;
 }
@@ -161,6 +162,7 @@ body {
 .logo-text {
     font-weight: 900;
     font-size: 2em;
+    color: var(--orange) !important;
 }
 /* ============== */
 
@@ -174,8 +176,10 @@ body {
 
 #main-program {
     padding: 25px 0px;
-    background-color: rgb(32, 32, 32);
+    background-color: var(--dark);
+    background-image: url(../assets/images/pattern_bg.png);
 }
+
 
 .line {
     border: 2px solid #e02712;
@@ -190,7 +194,7 @@ body {
 }
 
 .program-item {
-    background-color: var(--dark);
+    background-color: rgba(112, 109, 107, 0.3);
     display: inline-grid;
     grid-template-columns: 10% 30% 50%;
     column-gap: 15px;
@@ -345,6 +349,10 @@ body {
     background: url(../assets/images/conf2.webp);
     width: 85%;
     height: 200px;
+}
+
+.event-2 {
+    background: url(../assets/images/conf3.jpg);
 }
 
 .event-content {
