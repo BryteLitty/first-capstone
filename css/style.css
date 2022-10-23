@@ -41,9 +41,17 @@ body {
     font-weight: 400;
 }
 
+.top-links a { 
+    color: var(--gray);
+}
 
 .logo {
     display: none;
+}
+
+.logo a {
+    color: var(--orange);
+    text-decoration: none;
 }
 
 .campaign {
@@ -118,6 +126,7 @@ body {
     background-color: rgba(248, 235, 232, 0.1);
 }
 
+
 .adjust-text {
     font-size: 1.3em;
     font-weight: 900;
@@ -180,6 +189,9 @@ body {
     background-image: url(../assets/images/pattern_bg.png);
 }
 
+.full-program {
+    display: none;
+}
 
 .line {
     border: 2px solid #e02712;
@@ -198,9 +210,7 @@ body {
     display: inline-grid;
     grid-template-columns: 10% 30% 50%;
     column-gap: 15px;
-    /* max-width: 92%; */
     padding: 8px;
-    /* justify-content: center; */
     align-items: center;
     margin: 8px 12px 8px 12px;
 }
@@ -371,6 +381,64 @@ body {
 @media (min-width: 768px) {
     nav {
         box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    }
+
+    
+    .top-nav,
+    .logo {
+        display: block;
+    }
+
+    .mobile-menu,
+    .nav-icon {
+        display: none;
+    }
+
+    .nav-flex {
+        padding: 1% 10%;
+    }
+
+    .text-wrap {
+        width: 75%;
+        margin: 60px auto;
+    }
+    
+    .adjust-text {
+        font-size: 2.2em;
+    }
+    
+    .program-container {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        width: 90%;
+        margin: auto;
+    }
+
+    .program-item {
+        grid-template-columns: 100%;
+        text-align: center;
+        padding: 12px 8px;
+    }
+
+    .line {
+        width: 40px;
+    }
+    
+    .btn-box {
+        display: none;
+    }
+    .full-program {
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 4%;
+        font-size: 0.8em;
+        color: var(--gray);
+        text-decoration: underline;
+    }
+
+    .heading {
+        margin-top: 3%;
     }
 }
 
