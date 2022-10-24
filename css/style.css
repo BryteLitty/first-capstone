@@ -22,6 +22,17 @@ body {
     color: white;
 }
 
+main {
+    margin-top: 12%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary);
+    }
 
 .top-nav {
     color: var(--gray);
@@ -50,13 +61,14 @@ body {
 }
 
 .logo a {
-    color: var(--orange);
+    color: var(--orange)!important;
     text-decoration: none;
 }
 
 .campaign {
     color: var(--orange);
     border: 4px solid var(--orange);
+    padding: 1px 9px;
 }
 
 .nav-links {
@@ -305,23 +317,26 @@ body {
     letter-spacing: 15;
 }
 
-#partners-section {
-    padding: 10% 0;
+.partners-section {
+    padding: 8% 0;
     background-color: var(--dark)!important;
 }
 
-#partners-section .container {
-    margin-top: 8%;
+.partners-section .heading {
+    color: gray;
+}
+
+.partners-section .container {
+    /* margin-top: 8%; */
     display: flex;
-    /* grid-template-columns: auto auto auto; */
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 90%;
 }
 
-#partners-section .container > div {
-    margin: 5px;
+.partners-section .container > div {
+    margin: 5px 5%;
 }
 
 .copy {
@@ -384,9 +399,14 @@ body {
     }
 
     
-    .top-nav,
+    .top-nav {
+        display: block;
+    }
+
     .logo {
         display: block;
+        font-weight: 900;
+        font-size: 1.5em;
     }
 
     .mobile-menu,
@@ -396,6 +416,23 @@ body {
 
     .nav-flex {
         padding: 1% 10%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        display: flex;
+    }
+    .nav-item {
+        display: block;
+        margin: 0 40px;
+        color: var(--dark);
+    }
+
+    .nav-item:hover,
+    .nav-item:active {
+        color: var(--orange);
+        transition: all ease 0.2s;
     }
 
     .text-wrap {
@@ -412,12 +449,22 @@ body {
         grid-template-columns: 25% 25% 25% 25%;
         width: 90%;
         margin: auto;
+        padding: 10px;
     }
 
     .program-item {
         grid-template-columns: 100%;
         text-align: center;
-        padding: 12px 8px;
+        padding: 18px 8px 0;
+
+    }
+
+    .icon { 
+        margin-bottom: 15px;
+    }
+
+    .sub-heading {
+        font-weight: 800;
     }
 
     .line {
@@ -440,5 +487,86 @@ body {
     .heading {
         margin-top: 3%;
     }
+
+    #featured-speakers {
+        margin: 60px 0 0;
+    }
+
+    .img-wrapper {
+        display: flex;
+        
+    }
+
+    .info {
+        padding-left: 20px;
+    }
+
+    .img-card {
+        grid-template-columns: 30% 70%;
+        margin: 10px 2% 50px;
+    }
+
+    .name {
+        font-size: 1.9em;
+        font-weight: 700;
+    }
+
+    .title {
+        font-size: 1.2em;
+    }
+
+    .bio {
+        font-size: 1em;
+    }
+
+    .btn-more {
+        width: 90%;
+        padding: 10px 15px;
+    }
+
+    .btn-more:hover, 
+    .btn-more:active {
+        background-color: var(--orange);
+        color: var(--primary);
+        border: none;
+        transition: all ease 0.3s;
+    }
+
+    .partners-section {
+        padding: 6px 0 30px;
+        justify-content: space-between;
+    }
+
+
+    .partners-section .container > div {
+        margin: 8px 60px 70px;
+    }
+
+    .copy {
+        margin: 0 auto;
+        padding: 5% 3%;
+        justify-content: flex-start;
+    }
+
+    .copy .text{
+        font-size: 1.5em;
+        margin-left: 200px;
+    }
+
+    .copy br {
+        display: none;
+    }
+
+    .event-img-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 60%;
+    }
+
+    .event-img {
+        margin: 50px;
+    }
+    
 }
 
