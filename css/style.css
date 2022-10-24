@@ -271,11 +271,16 @@ header {
 .img-container {
     width: 100%;
     height: 90%;
+    background-image: url(../assets/images/chess-bg.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 60px;
 }
 
 .img-card img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 90%;
+    margin: 15px;
 }
 
 .info {
