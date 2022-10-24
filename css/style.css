@@ -563,16 +563,31 @@ header {
         display: none;
     }
 
-    .event-img-wrapper {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 60%;
+    .email {
+        margin: 10px 0;
+        padding: 0;
     }
+    .desc {
+        margin-top: 0;
+        font-size: 1.2em;
+    }
+
+    .main-logo {
+        font-size: 2em;
+    }
+
+    .event-img-wrapper {
+        width: 70%;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
 
     .event-img {
         margin: 50px;
+        height: 250px;
     }
+    
     
 }
 
