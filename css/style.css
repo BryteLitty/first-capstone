@@ -90,14 +90,15 @@ header {
 .fa-xmark {
     color: black;
     font-size: 1.5em;
-    color: gray;
+    color: rgb(249, 249, 249);
+    float: right;
 }
 
 .mobile-menu {
-  background-color: var(--primary);
+  background-color: rgba(186, 61, 12, 0.9);
   position: fixed;
-  height: auto;
-  width: 70%;
+  height: 100vh;
+  width: 100%;
   top: 0;
   padding: 28px;
   transition: all 0.2s linear;
@@ -113,11 +114,11 @@ header {
 }
 
 .mobile-menu .nav-item {
-    padding: 8px 0;
+    padding: 12px 0;
 }
 .mobile-menu a {
   text-decoration: none;
-  color: var(--black);
+  color: var(--primary);
   font-size: 18px;
   font-weight: 600;
 }
@@ -274,13 +275,13 @@ header {
     background-image: url(../assets/images/chess-bg.jpg);
     background-position: top left;
     background-repeat: no-repeat;
-    background-size: 60px;
+    background-size: 100px;
 }
 
 .img-card img {
     width: 80%;
-    height: 90%;
-    margin: 15px;
+    height: 80%;
+    margin: 20px 0 0 20px;
 }
 
 .info {
