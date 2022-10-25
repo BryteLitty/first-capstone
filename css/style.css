@@ -10,6 +10,7 @@
     --primary: #fff;
     --black: #000;
     --lato-font: 'Lato', sans-serif;
+    --gradient: linear-gradient(45deg, rgb(235, 21, 21), rgb(206, 96, 22));
 }
 
 html {
@@ -144,6 +145,11 @@ header {
     font-size: 1.3em;
     font-weight: 900;
     line-height: 1.4;
+    color: var(--gradient) !important;
+    background-image: url(../assets/images/text-bg.jpg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .paragraph {
@@ -251,7 +257,7 @@ header {
 .btn-orange {
     /* width: 80%; */
     padding: 30px;
-    background-color: var(--orange);
+    background-image: var(--gradient);
     border: none;
     font-size: 20px;
     color: var(--primary);
