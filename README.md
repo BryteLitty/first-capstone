@@ -1,4 +1,4 @@
-## Hello-Microvese
+## Digital Summit Landing Page - Capstone 1
 This is my first Capstone Project as a Microverse Student. It's my final project for the first learning module. The project is an idea of a landing page for one of Africa's largest tech events for Entrepreneurs and Developers from accross the Globe.
 
 
