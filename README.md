@@ -67,7 +67,7 @@ UI/UX designed by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Globa
 
 ### 📝 License
 
-This project is [MIT](https://github.com/BryteLitty/hello-microverse/blob/add-javascript-file/LICENSE) lincensed.
+- This project is [MIT](https://github.com/BryteLitty/hello-microverse/blob/add-javascript-file/LICENSE) lincensed.
 
 Link to the project walkthrough: 
 
