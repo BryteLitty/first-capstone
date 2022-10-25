@@ -240,7 +240,7 @@ header {
 
 .sub-heading {
     color: var(--orange);
-    font-weight: 600;
+    font-weight: 300;
     margin-left: 6px;
     font-size: 1.3em;
 }
@@ -269,6 +269,11 @@ header {
     color: #000 !important
 }
 
+/* .speaker {
+    display: grid;
+    grid-template-columns: 50% 50%;
+} */
+
 .img-card {
     margin: 5% 2%;
     display: grid;
@@ -285,9 +290,10 @@ header {
 }
 
 .img-card img {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     margin: 20px 0 0 20px;
+    border-radius: 3px;
 }
 
 .info {
@@ -476,7 +482,7 @@ header {
     }
 
     .sub-heading {
-        font-weight: 800;
+        font-weight: 500;
     }
 
     .line {
@@ -519,12 +525,13 @@ header {
     }
 
     .name {
-        font-size: 1.9em;
-        font-weight: 700;
+        font-size: 1.5em;
+        font-weight: 500;
     }
 
     .title {
         font-size: 1.2em;
+        font-weight: 400;
     }
 
     .bio {
