@@ -384,7 +384,6 @@ header {
   font-size: 0.7em;
 }
 
-
 /* about */
 .event-img {
   background: url(../assets/images/conf2.webp);
@@ -406,7 +405,6 @@ header {
   display: flex;
   flex-direction: column;
 }
-
 
 /* for desktop */
 @media (min-width: 768px) {
