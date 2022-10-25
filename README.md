@@ -1,16 +1,27 @@
 ## Hello-Microvese
-This my portfolio website project. It's a simple project to showcase my works as a developer and also share a brief about myself.
-This is one early stage projects as a Microverse Student.
+This is my first Capstone Project as a Microverse Student. It's my final project for the first learning module. The project is an idea of a landing page for one of Africa's largest tech events for Entrepreneurs and Developers from accross the Globe.
 
 
 ### Built With
 - HTML 
 - CSS
+- JavaScript
+
+### Screenshots
+
+- Mobile Version
+
+![mobile-view](/assets/mobile-view.png)
+
+- Desktop Version
+
+![desktop-view](/assets/desktop.png)
+
 
 ### Live Demo 
 You can check the program live via:
 
-[Live Demo](https://brytelitty.github.io/portfolio-project/)
+[Live Demo](https://brytelitty.github.io/first-capstone/)
 
 ### Getting Started 
 To get a local copy up and running follow these simple steps:
@@ -18,6 +29,7 @@ To get a local copy up and running follow these simple steps:
 #### Prerequisites
 - Code Editor(VS Studio Code)
 - Web Browser (Google Chrome recommended)
+- Linters (Webhint, Stylint and Eslint)
 
 ### How to Run
 To run the project do the following:
@@ -29,7 +41,7 @@ To run the project do the following:
 - Wait for a new tab to open
 - Voila! You're project is Live. You can procceed to make changes to the files
 
-**NB**: This is the mobile version of the project. You're therefore required to use the inspect element on chrome to be able to enjoy the be view functionality. Hence, this will likely not look so good on desktop, except on mobile.
+**NB**: To ensure that your code follows best practices and industry standard rules, please make use of [linters](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
 
 ##### Author
 - Github: [@BryteLitty](https://github.com/Bryte)
@@ -47,10 +59,15 @@ To run the project do the following:
 Give a ⭐️ if you like this project!
 
 ### Acknowledgments
-- Thanks to Microverse for this opportunity to learn and grow as a developer
-- Also, thanks to Microverse for the project idea in the form of a Figma Template
+- Thanks to Microverse for the opportunity to learn and grow as a developer
+- Also, thanks to [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) for the design
+
+### Credits
+UI/UX designed by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) on Behance.
 
 ### 📝 License
 
-This project is [MIT](https://github.com/BryteLitty/hello-microverse/blob/add-javascript-file/LICENSE) lincensed.
+- This project is [MIT](https://github.com/BryteLitty/hello-microverse/blob/add-javascript-file/LICENSE) lincensed.
+
+Link to the project walkthrough: 
 
