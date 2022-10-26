@@ -1,4 +1,4 @@
-## Hello-Microvese
+## Digital Summit Landing Page - Capstone 1
 This is my first Capstone Project as a Microverse Student. It's my final project for the first learning module. The project is an idea of a landing page for one of Africa's largest tech events for Entrepreneurs and Developers from accross the Globe.
 
 
@@ -69,5 +69,5 @@ UI/UX designed by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Globa
 
 - This project is [MIT](https://github.com/BryteLitty/hello-microverse/blob/add-javascript-file/LICENSE) lincensed.
 
-Link to the project walkthrough: 
+Link to the project walkthrough: [Presentation](https://www.loom.com/share/91f292c34b4b4d1da36d7b402c481069)
 
