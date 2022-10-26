@@ -594,4 +594,20 @@ header {
     margin: 50px;
     height: 250px;
   }
+
+  .about-footer {
+    background-color: var(--dark);
+    width: 100%;
+    color: white !important;
+    padding: 5% 13%;
+    margin-top: 4%;
+  }
+
+  .about-footer .logo a {
+    color: var(--primary) !important;
+  }
+
+  .about-partners {
+    display: none;
+  }
 }
